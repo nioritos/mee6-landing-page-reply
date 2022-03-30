@@ -1,0 +1,32 @@
+/*global configs*/
+:root {
+    --background-color: #272934;
+    --font-global: "Poppins", sans-serif;
+    --font-navigator: "Opens sans", sans-serif;
+    --font-size-navigator: 14px;
+    --color-fonts-navigator: #9b9b9c;
+    --color-fonts-hover: #D0D2DA;
+    --color-fonts: #F2F4FB;
+        --color-premium: gold;
+    --color-button-login: #3994FF;
+    --color-button-login-hover: #0076FF;
+    --color-other-button: #3e3f46;
+    --color-other-button-hover: #52545D;
+}
+
+
+body {
+    background: var(--background-color);
+}
+
+html, body, * {
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,li,a {
+    text-decoration: none;
+    list-style: none;
+}
